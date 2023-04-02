@@ -1,0 +1,25 @@
+{
+  "name": "newsletter-signup-app",
+  "version": "1.0.0",
+  "description": "Newsletter-Signup-App is an implementation of user sign-up page & user management on cloud using Mailchimp API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonBarzilay/Newsletter-Signup-App.git"
+  },
+  "author": "Ron Barzilay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RonBarzilay/Newsletter-Signup-App/issues"
+  },
+  "homepage": "https://github.com/RonBarzilay/Newsletter-Signup-App#readme",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.80",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "request": "^2.88.2"
+  }
+}
